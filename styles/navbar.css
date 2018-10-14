@@ -9,6 +9,10 @@ li a {
     font-size: 0.82em;
     color:rgba(0,0,0,0.87);
 }
+li a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
 
 #top-navbar {
     margin-right: 1.3em;
