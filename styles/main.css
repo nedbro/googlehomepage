@@ -59,3 +59,25 @@ article {
     opacity: 1;
 }
 
+.button-style {
+    margin-top: 2.5em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+
+    padding: 0.8em 1.4em 0.8em 1.4em;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+
+    text-align: center;
+}
+
+#language-text {
+    margin-top: 2.4em ;
+    font-size: 0.9em;
+}
+
