@@ -6,12 +6,12 @@ li {
     display:inline;
 }
 
-li a {
+li * {
     float:right;
-    margin: 2em 0.5em;
 }
 
 .navbar-text {
+    margin: 2em 0.5em;
     font-family: arial,sans-serif;
     font-size: 0.82em;
     color:rgba(0,0,0,0.87);
@@ -23,14 +23,20 @@ li a {
 }
 
 #google-apps {
-    float: right;
     height: 1.6em;
     margin: 1.2em 0.4em;;
-    
+}
+
+#notifications {
+    height: 1.3em;
+    margin: 1.3em 0.4em;
+}
+
+#google-apps , #notifications{
     opacity: .53;
 }
 
-#google-apps:hover {
+#google-apps:hover , #notifications:hover{
     opacity: 1;
 }
 
