@@ -1,19 +1,36 @@
+#top-navbar {
+    margin-right: 1.3em;
+}
+
 li {
     display:inline;
 }
+
 li a {
     float:right;
-    margin: 2em 0.4em;
+    margin: 2em 0.5em;
+}
 
+.navbar-text {
     font-family: arial,sans-serif;
     font-size: 0.82em;
     color:rgba(0,0,0,0.87);
+    text-decoration:none;
 }
-li a:hover {
+.navbar-text:hover {
     opacity: .85;
     text-decoration: underline;
 }
 
-#top-navbar {
-    margin-right: 1.3em;
+#google-apps {
+    float: right;
+    height: 1.6em;
+    margin: 1.2em 0.4em;;
+    
+    opacity: .53;
 }
+
+#google-apps:hover {
+    opacity: 1;
+}
+
