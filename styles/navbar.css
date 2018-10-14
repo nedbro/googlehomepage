@@ -24,12 +24,12 @@ li * {
 
 #google-apps {
     height: 1.6em;
-    margin: 1.2em 0.4em;;
+    margin: 1.2em 0.5em;;
 }
 
 #notifications {
     height: 1.3em;
-    margin: 1.3em 0.4em;
+    margin: 1.3em 0.5em;
 }
 
 #google-apps , #notifications{
@@ -38,5 +38,10 @@ li * {
 
 #google-apps:hover , #notifications:hover{
     opacity: 1;
+}
+
+#avatar {
+    height: 2em;
+    margin: 1em 0.5em;
 }
 
