@@ -1,0 +1,13 @@
+main {
+    display:flex;
+    padding-top: 8.3em;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#google-logo {
+    height: 5.55em;
+}
