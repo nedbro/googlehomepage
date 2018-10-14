@@ -3,7 +3,11 @@ li {
 }
 li a {
     float:right;
-    margin: 1.5em 0.4em;
+    margin: 2em 0.4em;
+
+    font-family: arial,sans-serif;
+    font-size: 0.82em;
+    color:rgba(0,0,0,0.87);
 }
 
 #top-navbar {
